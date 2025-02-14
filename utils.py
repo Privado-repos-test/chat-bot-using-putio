@@ -27,7 +27,7 @@ def required_user_data(f):
 
 # makes bytes more human readable
 # eg: 10000000000 > 9.3 GB
-def human_readable_bytes(bytes):
+def human_readable_bytes(bytes): 
         KB = 1024
         MB = 1024 * 1024
         GB = MB * 1024
